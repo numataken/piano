@@ -22,6 +22,10 @@ void DrawMain()
     for (int x = 50; x < 250; x+=10) {
         Paint(x+5, 0, kColorDarkBlue, kColorBlue);
     }
+    
+    for (int x = 50; x < 250; x+=10) {
+        Paint(x+5, 0, kColorDarkBlue, kColorBlue);
+    }
 
     DrawText("Hello, world!!", -12*14/2, 44, kColorWhite);
     Sleep(0.5f);
