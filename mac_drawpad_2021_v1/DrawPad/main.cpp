@@ -6,6 +6,7 @@ void DrawMain()
     Clear(kColorBlack);
 
     DrawLine(-320, 0, 319, 0, kColorGray);
+    DrawLine(-320, 0, 319, 0, kColorGray);
     DrawLine(0, -240, 0, 239, kColorGray);
 
     for (int i = 0; i < 5; i++) {
